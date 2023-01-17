@@ -1,0 +1,5 @@
+str = 'iPhone 10+ white; 256gb'
+function cleanString(str){
+    return str.toLowerCase().replaceAll(' ', '');
+}
+console.log(cleanString(str));
